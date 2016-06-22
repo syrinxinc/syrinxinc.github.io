@@ -1,0 +1,179 @@
+/* SAFEROUTES CSS Design File.
+* Version: v0.3B
+* Author: Madhav Khirwar
+*/
+
+@font-face { font-family: Existence; src: url('Existence-Light.otf'); } /*Added LOADS of fonts, redundancy*/
+@font-face {font-family: Walkway; src: url('Walkway_Black.ttf');}
+@font-face {font-family: BonvenoCF-Light; src: url('BonvenoCF-Light.otf');}
+@font-face {font-family: LANEPOSH; src: url('LANEPOSH.ttf');}
+@font-face {font-family: LANENAR_; src: url('LANENAR_.ttf');}
+@font-face {font-family: LANEUP_; src: url('LANEUP_.ttf');}
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 2em;
+    background-color:white;
+    color: #696969;
+
+}
+
+
+
+#heading{
+
+    background-color:#cc8800;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 27em;
+
+}
+
+#logo{
+    border-radius: 51%;
+    width: 10em;
+    position: relative;
+    z-index: 1;
+    top: -70%;
+    right: -3%;
+
+}
+
+#something{
+  height: 5em;
+  width:100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: #cc8800;
+
+}
+.top_page {
+    display: inline-block;
+    background-color:#ffcc00;
+    width: 100%;
+
+
+
+
+
+}
+
+.top_page ul li:hover{
+    background-color: #cc8800;
+}
+
+
+
+.top_page ul li {
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    font-size: 55%;
+    font-family: LANENAR_;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+
+}
+
+.background{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0;
+    left:0;
+    z-index: 0;
+
+}
+
+
+.description{
+    font-family:LANENAR_;
+    color: white;
+    font-size: 65%;
+    font-weight: 100;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+
+
+
+}
+.subtopics{
+    text-align: center;
+    font-family: LANENAR_;
+    font-weight: lighter;
+    font-size: 2em;
+    top: 100%;
+    padding-bottom: 0%;
+    color: white;
+    border-bottom: 5% solid white;
+}
+
+
+.paras{
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    font-family: LANENAR_;
+    font-weight: inherit;
+    font-size: 1em;
+    color: white;
+}
+
+#mission{
+    width: 100%;
+    height: 30%;
+    background-color: #008080;
+    padding-top: 5%;
+    padding-bottom:5%;
+
+}
+
+
+#achieved{
+
+        width: 100%;
+        height: 50%;
+        background-color: #800000;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+
+#plans{
+        width: 100%;
+        height: 50%;
+        background-color:#336600;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+
+#help{
+        width: 100%;
+        height:15em;
+        background-color:#400080;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+
+
+#facebook_thingy{
+
+  border: 20% solid black;
+  width: 3em;
+  position: relative;
+  z-index: 1;
+  left: 45%;
+  bottom: 3%;
+
+}
+
+.button{
+  align: center;
+
+
+}
